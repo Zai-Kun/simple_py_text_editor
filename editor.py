@@ -78,7 +78,7 @@ class Editor:
         ]
         return [
             "".join(line)[
-                self.display_col_start : self.display_col_start + self.w
+                self.display_col_start : self.display_col_start + self.w+1
             ].replace("\n", "")
             for line in lines_to_display
         ]
