@@ -12,7 +12,7 @@ class Editor:
             with open(file_path, "r") as f:
                 self.file_content = [list(line) for line in f.readlines()]
         else:
-            self.file_content: list[list[str]] = []
+            self.file_content: list[list[str]] = [["\n"]]
 
         self.prev_col_in_file = 0
 
