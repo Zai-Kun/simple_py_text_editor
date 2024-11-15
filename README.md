@@ -19,5 +19,6 @@ A simple terminal-based text editor built in Python from scratch using only the 
    python main.py <file_name_here_to_edit>
    ```
 
-Replace `<file_name_here_to_edit>` with the name of the file you want to edit.
+Replace `<file_name_here_to_edit>` with the name of the file you want to edit.\
+
 Note: This project was built only for learning purposes. I wouldn't recommend anyone to actually use it as a daily driver.
